@@ -1,58 +1,70 @@
+import feed from '../img/navBar/feed.svg'
+import language from '../img/navBar/language.svg'
+import pages from '../img/navBar/pages.svg'
+import profile from '../img/navBar/profile.svg'
+import trending from '../img/navBar/trending.svg'
+import messages from '../img/navBar/messages.svg'
+import explore from '../img/navBar/explore.svg'
+import news from '../img/navBar/news.svg'
+import music from '../img/navBar/music.svg'
+import settings from '../img/navBar/settings.svg'
+import logout from '../img/navBar/logout.svg'
+
 let initialState = [
     {
         id: 1,
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
+        icon: `${profile}`,
         menuName: 'Profile'
     },
     {
         id: 2,
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
+        icon: `${messages}`,
         menuName: 'Messages'
     },
     {
         id: 3,
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-        menuName: 'News'
+        icon: `${news}`,
+        menuName: 'News(soon)'
     },
     {
         id: 4,
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-        menuName: 'Feed'
+        icon: `${feed}`,
+        menuName: 'Feed(soon)'
     },
     {
         id: 5,
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-        menuName: 'Explore'
+        icon: `${explore}`,
+        menuName: 'Explore(soon)'
     },
     {
         id: 6,
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-        menuName: 'Language'
+        icon: `${language}`,
+        menuName: 'Language(soon)'
     },
     {
         id: 7,
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-        menuName: 'Logout'
+        icon: `${logout}`,
+        menuName: 'Logout(soon)'
     },
     {
         id: 8,
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-        menuName: 'Pages'
+        icon: `${pages}`,
+        menuName: 'Pages(soon)'
     },
     {
         id: 9,
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-        menuName: 'Trending'
+        icon: `${trending}`,
+        menuName: 'Trending(soon)'
     },
     {
         id: 10,
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-        menuName: 'Music'
+        icon: `${music}`,
+        menuName: 'Music(soon)'
     },
     {
         id: 11,
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-        menuName: 'Setting'
+        icon: `${settings}`,
+        menuName: 'Setting(soon)'
     },
 ];
 export const menuReducer = (state = initialState, action) => {

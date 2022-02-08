@@ -15,7 +15,7 @@
   height: 50px;
   display: flex;
   align-items: center;
-
+padding: 1px;
 }
 
 .icon {
@@ -45,5 +45,7 @@
   background-color: white;
   border-radius: 10px;
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  border: 1px solid #556fdc;
+  padding: 0;
 }
 

@@ -1,6 +1,6 @@
 .dialog a {
     text-decoration: none;
-    color: white;
+   color: black;
 }
 
 .dialog {
@@ -12,6 +12,7 @@
     background-color: white;
     padding: 0;
     border-radius: 10px;
+    /*цвет синхронить*/
     border: solid 1px black;
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
