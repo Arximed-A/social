@@ -1,4 +1,4 @@
-import feed from '../img/navBar/feed.svg'
+import home from '../img/navBar/home.svg'
 import language from '../img/navBar/language.svg'
 import pages from '../img/navBar/pages.svg'
 import profile from '../img/navBar/profile.svg'
@@ -13,23 +13,23 @@ import logout from '../img/navBar/logout.svg'
 let initialState = [
     {
         id: 1,
+        icon: `${home}`,
+        menuName: 'Home'
+    },
+    {
+        id: 2,
         icon: `${profile}`,
         menuName: 'Profile'
     },
     {
-        id: 2,
+        id: 3,
         icon: `${messages}`,
         menuName: 'Messages'
     },
     {
-        id: 3,
+        id: 4,
         icon: `${news}`,
         menuName: 'News(soon)'
-    },
-    {
-        id: 4,
-        icon: `${feed}`,
-        menuName: 'Feed(soon)'
     },
     {
         id: 5,

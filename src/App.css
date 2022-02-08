@@ -11,14 +11,16 @@
 		"n c";
 }
 :root {
-  --main-color: #deeff6
+  --main-color: #deeff6;
+  --border-color: #b2b2b2;
 }
 .app-wrapper-content {
   border-radius: 10px;
 	grid-area: c;
 	background-color: var(--main-color);
 	margin-right: 10px;
-
+  border: 1px solid var(--border-color);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 .content {
 

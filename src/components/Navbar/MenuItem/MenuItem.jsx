@@ -9,7 +9,8 @@ const MenuItem = (props) => {
 
     return (
         <div className={s.box}>
-            <NavLink to={menuName} className={navData => navData.isActive ? s.active : s.link}>
+            <NavLink to={menuName === 'Home' ? "/" : menuName}
+                     className={navData => navData.isActive ? s.active : s.link}>
                 <div className={s.container}>
                     <img className={s.icon} src={menuIcon}
                          alt="broken"/>

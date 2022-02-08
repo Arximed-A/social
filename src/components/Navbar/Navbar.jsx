@@ -62,7 +62,7 @@ const Navbar = (props) => {
             {/*            navData => navData.isActive ? s.active : s.item}>Setting</NavLink>*/}
             {/*    </div>*/}
 
-            <div>Тут будет кнопка</div>
+            {/*<div>Тут будет кнопка</div>*/}
         </nav>
     )
 }

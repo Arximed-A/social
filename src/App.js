@@ -6,6 +6,8 @@ import Profile from './components/Profile/Profile';
 import Dialogs from "./components/Dialogs/Dialogs";
 import {Route, Routes} from "react-router-dom";
 import News from "./components/News/News";
+import Home from "./components/Home/Home";
+
 
 const App = (props) => {
 
@@ -28,6 +30,7 @@ const App = (props) => {
                                dispatch={props.dispatch}
                            />}/>
                     <Route path="/news" element={<News/>}/>
+                    <Route path="/" element={<Home/>} />
                 </Routes>
             </div>
         </div>
