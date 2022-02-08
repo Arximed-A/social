@@ -1,0 +1,27 @@
+.nav {
+    grid-area: n;
+    /* background-color: #edf2f6; */
+    background-color: #EDF2F6;
+
+    padding: 20px  10px ;
+
+}
+
+.item {
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+.item:hover {
+    text-decoration: underline;
+    color: black;
+
+}
+
+.active {
+    color: red;
+    text-transform: uppercase;
+}
