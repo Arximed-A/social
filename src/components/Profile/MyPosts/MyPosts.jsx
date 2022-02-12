@@ -6,7 +6,7 @@ import {addPostCreator, updateNewPostTextCreator} from "../../../redux/profileRe
 
 const MyPosts = (props) => {
 
-    let postsElements = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount}/>)
+    let postsElements = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount} icons={props.icons}/>)
 
     // let newPostElement = React.createRef();
 
@@ -26,6 +26,7 @@ const MyPosts = (props) => {
                     onChange={onPostChange}
                     value={props.newPostText}
                     placeholder="What's news?"
+                    className={s.postHole}
                 />
 
             </div>

@@ -20,6 +20,12 @@ const Dialogs = (props) => {
         let text = e.target.value
         props.dispatch(updateNewMessageTextCreator(text))
     }
+    //Тут
+    let enterPush = (button) => {
+       if(button.key === "Enter" ){
+           sendMessage()
+       }
+    }
     return (
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
@@ -27,10 +33,11 @@ const Dialogs = (props) => {
             </div>
             <div className={s.messages}>
                 {messagesElements}
-                <textarea onChange={onMessageChange}
+                <textarea className={s.messageHole}
+                          onChange={onMessageChange}
                           placeholder='Enter your message'
-                    // ref={newMessageElement}
                           value={props.dialogsPage.newMessageText}
+                          onKeyDown={enterPush}
                 />
                 <div>
                     <button onClick={sendMessage}>Send</button>

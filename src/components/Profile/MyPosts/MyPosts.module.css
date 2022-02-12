@@ -1,10 +1,24 @@
 .item img {
-	width: 50px;
+  width: 50px;
 }
-.postsBlock{
-	padding: 10px;
+
+.postsBlock {
+  padding: 10px;
 
 }
-.posts{
-	margin: 10px 0 0 0 ;
+
+.posts {
+  margin: 10px 0 0 0;
+}
+
+.postHole {
+  font-size: 14px;
+  outline: none;
+  -moz-appearance: none;
+  border: 1px solid #999;
+  resize: none;
+  width: 90%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
 }

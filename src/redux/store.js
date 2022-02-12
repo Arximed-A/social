@@ -2,6 +2,18 @@ import profileReducer from "./profileReducer";
 import dialogsReducer from "./dialogsReducer";
 import sidebarReducer from "./sidebarReducer";
 
+import iconHome from "../img/navBar/home.svg";
+import iconProfile from "../img/navBar/profile.svg";
+import iconMessages from "../img/navBar/messages.svg";
+import iconNews from "../img/navBar/news.svg";
+import iconExplore from "../img/navBar/explore.svg";
+import iconLanguage from "../img/navBar/language.svg";
+import iconLogout from "../img/navBar/logout.svg";
+import iconPages from "../img/navBar/pages.svg";
+import iconTrending from "../img/navBar/trending.svg";
+import iconMusic from "../img/navBar/music.svg";
+import iconSettings from "../img/navBar/settings.svg";
+
 // const ADD_POST = 'ADD-POST';
 // const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
 // const SEND_MESSAGE = 'SEND-MESSAGE';
@@ -35,63 +47,63 @@ let store = {
             newMessageText: 'новое сообщение',
         },
         sidebar: {},
-        menuData: [
+        menuData:[
             {
                 id: 1,
-                icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-                menuName: 'Profile'
+                icon: `${iconHome}`,
+                menuName: 'Home'
             },
             {
                 id: 2,
-                icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
+                icon: `${iconProfile}`,
+                menuName: 'Profile'
+            },
+            {
+                id: 3,
+                icon: `${iconMessages}`,
                 menuName: 'Messages'
             },
-            // {
-            //     id: 3,
-            //     icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-            //     menuName: 'News'
-            // },
-            // {
-            //     id: 4,
-            //     icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-            //     menuName: 'Feed'
-            // },
-            // {
-            //     id: 5,
-            //     icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-            //     menuName: 'Explore'
-            // },
-            // {
-            //     id: 6,
-            //     icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-            //     menuName: 'Language'
-            // },
-            // {
-            //     id: 7,
-            //     icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-            //     menuName: 'Logout'
-            // },
-            // {
-            //     id: 8,
-            //     icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-            //     menuName: 'Pages'
-            // },
-            // {
-            //     id: 9,
-            //     icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-            //     menuName: 'Trending'
-            // },
-            // {
-            //     id: 10,
-            //     icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-            //     menuName: 'Music'
-            // },
-            // {
-            //     id: 11,
-            //     icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Home_free_icon.svg/1200px-Home_free_icon.svg.png',
-            //     menuName: 'Setting'
-            // },
-        ],
+            {
+                id: 4,
+                icon: `${iconNews}`,
+                menuName: 'News(soon)'
+            },
+            {
+                id: 5,
+                icon: `${iconExplore}`,
+                menuName: 'Explore(soon)'
+            },
+            {
+                id: 6,
+                icon: `${iconLanguage}`,
+                menuName: 'Language(soon)'
+            },
+            {
+                id: 7,
+                icon: `${iconLogout}`,
+                menuName: 'Logout(soon)'
+            },
+            {
+                id: 8,
+                icon: `${iconPages}`,
+                menuName: 'Pages(soon)'
+            },
+            {
+                id: 9,
+                icon: `${iconTrending}`,
+                menuName: 'Trending(soon)'
+            },
+            {
+                id: 10,
+                icon: `${iconMusic}`,
+                menuName: 'Music(soon)'
+            },
+            {
+                id: 11,
+                icon: `${iconSettings}`,
+                menuName: 'Setting(soon)'
+            },
+        ]
 
     },
     _callSubscriber() {

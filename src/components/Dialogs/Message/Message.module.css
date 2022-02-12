@@ -1,4 +1,14 @@
 .message {
+  background-color: white;
+  margin: 0px 0px 5px 0px;
+  padding: 10px;
+  border-radius: 10px 10px 10px 0px;
+  display: inline-block;
+  max-width: 400px;
+  word-wrap: break-word;
+  border: 1px solid var(--border-color);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
 }
 
 

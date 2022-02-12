@@ -1,12 +1,20 @@
+import iconLike from "../img/profile/like.svg"
+import iconDisLike from "../img/profile/dislike.svg"
+
 const ADD_POST = 'ADD-POST';
 const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
 
 let initialState = {
     posts: [
-        {id: 1, message: 'Hi, how are you?', likesCount: 12},
-        {id: 2, message: 'It\'s my first post', likesCount: 11},
+        {id: 1, message: 'Hello World !!!', likesCount: 12},
+        {id: 2, message: `What's news?`, likesCount: 11},
     ],
-    newPostText: 'What\'s news?'
+    newPostText: 'Say smth',
+    icons: {
+        like: iconLike,
+        disLike: iconDisLike,
+    }
+
 };
 
 const profileReducer = (state = initialState, action) => {

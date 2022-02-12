@@ -13,6 +13,7 @@ const Profile = (props) => {
             <MyPosts posts={props.profilePage.posts}
                      newPostText={props.profilePage.newPostText}
                      dispatch={props.dispatch}
+                     icons={props.profilePage.icons}
             />
             </div>
         </div>

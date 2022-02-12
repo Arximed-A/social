@@ -1,69 +1,70 @@
-import home from '../img/navBar/home.svg'
-import language from '../img/navBar/language.svg'
-import pages from '../img/navBar/pages.svg'
-import profile from '../img/navBar/profile.svg'
-import trending from '../img/navBar/trending.svg'
-import messages from '../img/navBar/messages.svg'
-import explore from '../img/navBar/explore.svg'
-import news from '../img/navBar/news.svg'
-import music from '../img/navBar/music.svg'
-import settings from '../img/navBar/settings.svg'
-import logout from '../img/navBar/logout.svg'
+import iconHome from '../img/navBar/home.svg'
+import iconProfile from '../img/navBar/profile.svg'
+import iconMessages from '../img/navBar/messages.svg'
+import iconNews from '../img/navBar/news.svg'
+import iconExplore from '../img/navBar/explore.svg'
+import iconLanguage from '../img/navBar/language.svg'
+import iconLogout from '../img/navBar/logout.svg'
+import iconPages from '../img/navBar/pages.svg'
+import iconTrending from '../img/navBar/trending.svg'
+import iconMusic from '../img/navBar/music.svg'
+import iconSettings from '../img/navBar/settings.svg'
+
 
 let initialState = [
     {
         id: 1,
-        icon: `${home}`,
+        icon: `${iconHome}`,
         menuName: 'Home'
     },
     {
         id: 2,
-        icon: `${profile}`,
+        icon: `${iconProfile}`,
         menuName: 'Profile'
     },
     {
         id: 3,
-        icon: `${messages}`,
+        icon: `${iconMessages}`,
         menuName: 'Messages'
     },
     {
         id: 4,
-        icon: `${news}`,
+        icon: `${iconNews}`,
         menuName: 'News(soon)'
     },
     {
         id: 5,
-        icon: `${explore}`,
+        icon: `${iconExplore}`,
         menuName: 'Explore(soon)'
     },
     {
         id: 6,
-        icon: `${language}`,
+        icon: `${iconLanguage}`,
         menuName: 'Language(soon)'
     },
     {
         id: 7,
-        icon: `${logout}`,
+        icon: `${iconLogout}`,
         menuName: 'Logout(soon)'
     },
     {
         id: 8,
-        icon: `${pages}`,
+        icon: `${iconPages}`,
         menuName: 'Pages(soon)'
     },
     {
         id: 9,
-        icon: `${trending}`,
+        icon: `${iconTrending}`,
         menuName: 'Trending(soon)'
     },
     {
         id: 10,
-        icon: `${music}`,
+        icon: `${iconMusic}`,
         menuName: 'Music(soon)'
     },
     {
         id: 11,
-        icon: `${settings}`,
+        icon: `${iconSettings}`,
         menuName: 'Setting(soon)'
     },
 ];
